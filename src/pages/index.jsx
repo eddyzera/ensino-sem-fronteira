@@ -10,6 +10,8 @@ import {
   Link
 } from '@chakra-ui/react'
 import Head from 'next/head'
+import LoginFields from '../components/loginFields'
+
 export default function Login() {
   return (
     <Box height="100vh">
@@ -29,7 +31,7 @@ export default function Login() {
                 justifyContent="flex-end"
                 width="100%"
               >
-                <Button>Registrar</Button>
+                <LoginFields />
                 <Button>Logar</Button>
               </Box>
           </Container>

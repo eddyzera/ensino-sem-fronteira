@@ -9,7 +9,10 @@ const themeCustom = extendTheme({
         },
         yellow: '#F9E3A2',
         gray: '#F7F8FA',
-        blue: '#132743'
+        blue: {
+            50:'#132743',
+            100: '#0f2038'
+        }
     },
 
     styles: {
@@ -20,7 +23,7 @@ const themeCustom = extendTheme({
                 boxSize: 'border-box',
                 color: 'white',
                 fontFamily: 'Open Sans, sans-serif',
-                background: 'blue'
+                background: 'blue.100'
             },
 
             '@media (max-width: 1080px)': {
