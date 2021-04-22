@@ -12,7 +12,8 @@ const themeCustom = extendTheme({
         blue: {
             50:'#132743',
             100: '#0f2038'
-        }
+        },
+        red: '#DB1D4B'
     },
 
     styles: {

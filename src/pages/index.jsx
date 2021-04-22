@@ -6,11 +6,10 @@ import {
   UnorderedList,
   ListItem,
   Image, 
-  Button,
-  Link
 } from '@chakra-ui/react'
 import Head from 'next/head'
 import LoginFields from '../components/loginFields'
+import FormRegister from '../components/formRegister'
 
 export default function Login() {
   return (
@@ -32,7 +31,7 @@ export default function Login() {
                 width="100%"
               >
                 <LoginFields />
-                <Button>Logar</Button>
+                <FormRegister />
               </Box>
           </Container>
         </Box>
